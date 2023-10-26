@@ -1,9 +1,5 @@
-@extends('layouts.app')
-
-@section('header')
-
 <header>
-    <div id="banner" class="bg-dc">
+    <div id="banner" class="bg-dc py-2">
         <div class="my_container d-flex justify-content-end align-items-center text-light">
             <span class="px-4">
                 DC POWER VISA
@@ -40,7 +36,3 @@
         </div>
     </nav>
 </header>
-
-
-
-@endsection
