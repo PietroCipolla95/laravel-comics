@@ -1,8 +1,11 @@
 .main_footer {
-    height: 369px;
     background-image: url(../images/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    .my_h {
+        height: 370px;
+    }
 
     h6 {
         color: white;
@@ -19,12 +22,23 @@
     }
 
     .logo {
-        height: 369px;
+        height: 450px;
         background-image: url(../images/dc-logo-bg.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: local;
         background-position: center;
+        width: 50%;
+    }
+
+    .rights {
+        color: grey;
+        font-size: .7rem;
+
+        a {
+            font-size: .7rem;
+        }
+
     }
 
 }

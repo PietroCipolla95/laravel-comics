@@ -28,8 +28,9 @@ Route::get('/', function () {
         'SHOP'
     ];
 
+    $footer_items = config('footer');
 
     $comics = config('comics');
 
-    return view('home', compact('comics'), compact('header_menu_items'));
+    return view('home', compact('comics'), compact(['footer_items', 'header_menu_items']));
 });
