@@ -1,0 +1,24 @@
+.tools {
+
+    background-color: $dc-primary;
+
+    img {
+        width: 20%;
+    }
+
+    .comic_shop {
+        width: 15%;
+    }
+
+    span {
+        font-size: .8rem;
+        padding-left: .6rem;
+        color: white;
+    }
+
+    .tools_container {
+        max-width: 1100px;
+        margin: auto;
+    }
+
+}

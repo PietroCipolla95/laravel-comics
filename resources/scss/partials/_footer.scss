@@ -1,0 +1,55 @@
+.main_footer {
+    height: 369px;
+    background-image: url(../images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h6 {
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+        color: grey;
+        font-size: .9rem;
+
+        &:hover {
+            color: $dc-primary;
+        }
+    }
+
+    .logo {
+        height: 369px;
+        background-image: url(../images/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: local;
+        background-position: center;
+    }
+
+}
+
+.bottom_footer {
+
+    background-color: rgb(48, 45, 45);
+
+    .follow {
+        color: $dc-primary;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .my_border {
+        border-radius: 0;
+        border: 3px solid $dc-primary
+    }
+
+    .media_wrapper {
+
+        img {
+            padding-left: .5rem;
+        }
+
+    }
+
+}
