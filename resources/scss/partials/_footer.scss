@@ -2,9 +2,10 @@
     background-image: url(../images/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 400px;
 
     .my_h {
-        height: 370px;
+        height: 330px;
     }
 
     h6 {
@@ -22,13 +23,13 @@
     }
 
     .logo {
-        height: 450px;
+        height: 400px;
+        width: 50%;
         background-image: url(../images/dc-logo-bg.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: local;
         background-position: center;
-        width: 50%;
     }
 
     .rights {

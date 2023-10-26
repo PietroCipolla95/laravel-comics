@@ -4,7 +4,7 @@
         <div class="row my_container">
             <!-- columns on left with all links -->
             <div class="col-5">
-                <div class="row my_h pt-4 flex-column">
+                <div class="row my_h pt-4 flex-column g-0">
 
                     <!-- dinamic footer menus generations -->
                     @foreach($footer_items as $footer_item)
@@ -26,7 +26,7 @@
                     @endforeach
 
                 </div>
-                <div class="col-12">
+                <div class="col-12 m-0">
                     <p class="rights">
                         All Site Content TM and 2020 DC Entertainment, unless otherwise
                         <a href="#" class="color_dc">noted here</a>. All rights reserved.
