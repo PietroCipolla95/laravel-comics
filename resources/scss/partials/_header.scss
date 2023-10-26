@@ -16,4 +16,19 @@ header {
 
         }
     }
+
+
+    .searchbar {
+        input {
+            border: 0;
+            border-bottom: 2px solid $dc-primary;
+        }
+
+        input::-webkit-input-placeholder {
+            text-align: end;
+            color: black;
+        }
+
+    }
+
 }

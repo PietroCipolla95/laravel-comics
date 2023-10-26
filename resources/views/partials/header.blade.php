@@ -23,16 +23,15 @@
         </div>
         <!-- nav links -->
         <div class="nav navbar-nav">
-            <a class="nav-item nav-link" href="#">CHARACTERS</a>
-            <a class="nav-item nav-link" href="#">COMICS</a>
-            <a class="nav-item nav-link" href="#">MOVIES</a>
-            <a class="nav-item nav-link" href="#">TV</a>
-            <a class="nav-item nav-link" href="#">GAMES</a>
-            <a class="nav-item nav-link" href="#">COLLECTIBLES</a>
-            <a class="nav-item nav-link" href="#">VIDEOS</a>
-            <a class="nav-item nav-link" href="#">FANS</a>
-            <a class="nav-item nav-link" href="#">NEWS</a>
-            <a class="nav-item nav-link" href="#">SHOP</a>
+            @foreach($header_menu_items as $header_menu_item)
+            <a class="nav-item nav-link" href="#">
+                {{$header_menu_item}}
+            </a>
+            @endforeach
+        </div>
+        <!-- searchbar -->
+        <div class="searchbar">
+            <input type="text" placeholder="Search 🔍">
         </div>
     </nav>
 </header>
