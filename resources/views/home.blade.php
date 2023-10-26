@@ -55,10 +55,49 @@
             </div>
         </nav>
     </header>
+
+
     <section class="jumbotron">
         <div class="my_container py-5">
         </div>
     </section>
+
+
+    <div class="comics_section">
+        <!-- cards row -->
+        <div class="row pt-5 my_container">
+            <!-- current series hover -->
+            <div class="current_series position-relative">
+                <div class="bg-dc px-3 py-2 my_btn_abs rounded-0 px-4 text-light">
+                    <h5 class="fs-4">
+                        CURRENT SERIES
+                    </h5>
+                </div>
+            </div>
+
+            @foreach($comics as $comic)
+            <div class="col-2 mb-3">
+                <div class="card bg-transparent border-0">
+                    <div class="comics_img">
+                        <img src="{{$comic['thumb']}}">
+                    </div>
+                    <div class="comic_title pt-2">
+                        <p class="text-light">
+                            {{$comic['title']}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            @endforeach
+        </div>
+
+        <div class="pb-3 d-flex justify-content-center">
+            <button class="btn bg-dc rounded-0 px-4 py-2 text-light fw-bolder">
+                LOAD MORE
+            </button>
+        </div>
+
+    </div>
 
 
 
