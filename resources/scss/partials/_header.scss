@@ -1,0 +1,19 @@
+header {
+
+    .nav {
+
+        a {
+            margin-left: 1rem;
+            font-weight: 700;
+
+            border-bottom: 1px solid white;
+
+            &:hover {
+                color: $dc-primary;
+
+                border-bottom: 1px solid $dc-primary;
+            }
+
+        }
+    }
+}

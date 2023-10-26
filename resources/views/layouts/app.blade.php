@@ -16,9 +16,9 @@
 </head>
 
 <body>
-    <header>
-        @yield('header')
-    </header>
+
+    @include('partials.header')
+
 
 
 

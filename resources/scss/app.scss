@@ -1,6 +1,8 @@
 @import '~bootstrap/scss/bootstrap';
 
 @import './partials/root';
+@import './partials/header';
+@import './partials/jumbotron';
 
 .my_container {
     max-width: 1170px;
