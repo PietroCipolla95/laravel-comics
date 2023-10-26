@@ -1,1 +1,20 @@
 @import '~bootstrap/scss/bootstrap';
+
+@import './partials/root';
+
+.my_container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-dc {
+    background-color: $dc-primary;
+}
+
+.color-dc {
+    color: $dc-primary;
+}
