@@ -269,24 +269,24 @@
                     <button type="button" class="btn my_border text-light P-2">SIGN UP NOW</button>
                 </div>
                 <!-- col with follow us and medias -->
-                <div class="col-4 d-flex align-items-center justify-content-between">
+                <div class="col-5 d-flex align-items-center justify-content-between">
                     <p class="follow">FOLLOW US</p>
                     <!-- wrapper with medias -->
                     <div class="media_wrapper text-dark pb-3">
                         <a href="#">
-                            <img src="../assets/img/footer-facebook.png" alt="" srcset="">
+                            <img src="{{Vite::asset('resources/images/footer-facebook.png')}}" alt="" srcset="">
                         </a>
                         <a href="#">
-                            <img src="../assets/img/footer-twitter.png" alt="" srcset="">
+                            <img src="{{Vite::asset('resources/images/footer-pinterest.png')}}" alt="" srcset="">
                         </a>
                         <a href="#">
-                            <img src="../assets/img/footer-youtube.png" alt="">
+                            <img src="{{Vite::asset('resources/images/footer-periscope.png')}}" alt="">
                         </a>
                         <a href="#">
-                            <img src="../assets/img/footer-pinterest.png" alt="" srcset="">
+                            <img src="{{Vite::asset('resources/images/footer-youtube.png')}}" alt="" srcset="">
                         </a>
                         <a href="#">
-                            <img src="../assets/img/footer-periscope.png" alt="">
+                            <img src="{{Vite::asset('resources/images/footer-twitter.png')}}" alt="">
                         </a>
                     </div>
                 </div>
